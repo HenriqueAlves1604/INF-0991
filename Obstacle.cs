@@ -1,16 +1,14 @@
 public class Obstacle {
-<<<<<<< HEAD
-    //Atributos ALTERADOR2 e ALTERADOR3
+    //Atributos ALTERADOR1, ALTERADOR2 e ALTERADOR3
+    private string type {get; set;}
     private int xPosition {get; set;}
     private int yPosition {get; set;}
 
-    //Outra alteracao realizada por ALTERADOR2 e ALTERADOR3
+    //Outra alteracao realizada por ALTERADOR1, ALTERADOR2 e ALTERADOR3
     //Constructor:
-    Obstacle(int xPosition, int yPosition){
+    Obstacle(string type, int xPosition, int yPosition){
+	this.type = type;
 	this.xPosition = xPosition;
 	this.yPosition = yPosition;
     }
 }
-
-
-
